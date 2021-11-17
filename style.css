@@ -8,6 +8,9 @@
     justify-content: center;
     text-transform: uppercase;
 }
+body {
+    margin: 0;
+}
 nav {
     background-color: tomato;
     min-height: 150px;
@@ -39,6 +42,9 @@ aside {
 .column {
     flex: 1 0 0;
 }
-aside {
-    width: 25%;
+
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
 }
